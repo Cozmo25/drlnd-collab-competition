@@ -6,7 +6,7 @@
 
 # Project 3: Collaboration and Competition
 
-### Results
+### Summary
 
 Please refer to the [Report](./Report.pdf) for details of the algorithm used to solve this environment and a summary of the results.
 
@@ -20,6 +20,11 @@ The final neural network weights are saved in the following files:
 - [Agent 2 Critic](./tennis-checkpoint-ddpg-critic-solved-866ep-2-agent_1.pth)
 
 In order to visualise the trained agents you will need to load the weights from the files above using `torch.load()` and reset the environment with train_mode set to false `env_info = env.reset(train_mode=False)[brain_name]`.
+
+**Results**
+
+![Solved-Episodes](./images/ddpg-2-agent-nets-866ep-seed12-eps.png)
+![Solved-Chart](./images/ddpg-2-agent-nets-866ep-seed12-chart.png)
 
 ### Introduction
 
